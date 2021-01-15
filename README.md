@@ -10,7 +10,7 @@ add icon inside
 #
 step 2:
 modify xml inside <code>./android/app/src/main/res/layout/launch_screen.xml </code>
-<code>
+```sh
   <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
@@ -28,5 +28,4 @@ modify xml inside <code>./android/app/src/main/res/layout/launch_screen.xml </co
 
 
 </LinearLayout>
-
-</code>
+```
