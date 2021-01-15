@@ -19,7 +19,8 @@ modify xml inside <code>./android/app/src/main/res/layout/launch_screen.xml </co
     android:background="@color/blue" // change bg color
     android:layout_gravity="center"
     >
-
+</code>
+<code>
     <ImageView
         android:layout_width="320dp"
         android:layout_height="488dp"
