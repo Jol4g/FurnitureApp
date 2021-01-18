@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { StyleSheet,SafeAreaView, Text, View } from "react-native";
-
 import SplashScreen from "react-native-splash-screen";
+import { Onbording1, Onbording2 } from "./src/screens";
 
 const App = () => {
   useEffect(() => {
@@ -11,35 +11,7 @@ const App = () => {
     <SafeAreaView
       style={styles.container}
     >
-      <Text
-        style={styles.head}
-      >
-        Splash screen boilerplate
-      </Text>
-      <View style={styles.View}>
-        <Text
-        style={styles.text}
-        >
-          Step 1-   Change launch_screen.xml :
-        </Text>
-        <Text
-          style={styles.text}
-        >
-          ./android/app/src/main/res/layout/launch_screen.xml
-        </Text>
-      </View>
-      <View style={styles.View}>
-      <Text
-        style={styles.text}
-      >
-      Step 2-  Change lo.png :
-      </Text>
-      <Text
-        style={styles.text}
-      >
-        ./android/app/src/main/res/mipmap/lo.png
-      </Text>
-    </View>
+     <Onbording2/>
     </SafeAreaView>
   );
 };

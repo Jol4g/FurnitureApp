@@ -10,7 +10,6 @@ export const COLORS = {
 }
 
 export const SIZES = {
-
   h1:30,
   h2:22,
   h3:16,
@@ -25,7 +24,7 @@ export const SIZES = {
 }
 
 export const FONTS = {
-h1: { fontFamily: "Gilroy-Black", fontSize: SIZES.h1, lineHeight: 36 },
+  h1: { fontFamily: "Gilroy-Black", fontSize: SIZES.h1, lineHeight: 36 },
   h2: { fontFamily: "Gilroy-Bold", fontSize: SIZES.h2, lineHeight: 30 },
   h3: { fontFamily: "Gilroy-Bold", fontSize: SIZES.h3, lineHeight: 22 },
   h4: { fontFamily: "Gilroy-Bold", fontSize: SIZES.h4, lineHeight: 22 },
