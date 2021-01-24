@@ -35,23 +35,21 @@ const infosBoarding=[
   title:"Home Furniture",
   img:images.welcome,
   description:"ya heythem hetaykzm sanfihs jslnfgsfsbc  hsgdfetduf vhdgstduzd  khzg",
+  style:  {width:SIZES.width*0.9,height:SIZES.height*0.55,borderBottomLeftRadius:20}
 },
 {
   title:"Office Furniture",
   img:images.welcome2,
-  description:"ya heythem hetaykzm sanfihs jslnfgsfsbc  hsgdfetduf vhdgstduzd  khzg" 
+  description:"ya heythem hetaykzm sanfihs jslnfgsfsbc  hsgdfetduf vhdgstduzd  khzg",
+  style: {width:SIZES.width*0.9,height:SIZES.height*0.55}
 },
 {
   title:"Relaxing Furniture",
   img:images.welcome,
-  description:"ya heythem hetaykzm sanfihs jslnfgsfsbc  hsgdfetduf vhdgstduzd  khzg" 
+  description:"ya heythem hetaykzm sanfihs jslnfgsfsbc  hsgdfetduf vhdgstduzd  khzg" ,
+  style:{width:SIZES.width*0.9,height:SIZES.height*0.55,borderBottomRightRadius:20}
 }
 ]
-
-const ImageStyleCorner = [
-  {width:SIZES.width*0.9,height:SIZES.height*0.55,borderBottomLeftRadius:20},
-  {width:SIZES.width*0.9,height:SIZES.height*0.55},
-  {width:SIZES.width*0.9,height:SIZES.height*0.55,borderBottomRightRadius:20}]
 
   return (
     <View
@@ -72,7 +70,7 @@ const ImageStyleCorner = [
      return(
     <View key={info.title} style={styles.box}>
     <Image 
-    style={ImageStyleCorner[pageNumber-1]}
+    style={info.style}
     source={info.img} 
     />
     <Text
