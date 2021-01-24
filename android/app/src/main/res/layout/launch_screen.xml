@@ -5,16 +5,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue"
+    android:background="@color/white"
     android:layout_gravity="center"
     >
 
     <ImageView
-        android:layout_width="320dp"
-        android:layout_height="488dp"
+        android:layout_width="100pt"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
-        android:src="@mipmap/lo" />
+        android:src="@mipmap/splash" />
 
 
 </LinearLayout>
