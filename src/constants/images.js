@@ -7,6 +7,8 @@ export const bed = require('../assets/images/bedroom.png');
 export const plate = require('../assets/images/goldenplate.png');
 export const chandelier = require('../assets/images/chandelier.png');
 export const welcome = require('../assets/images/welcome.jpg');
+export const welcome2 = require('../assets/images/welcome2.jpg');
+export const freshroom = require('../assets/images/freshroom.png');
 
 export default {
   chair1,
@@ -18,4 +20,6 @@ export default {
   bed,
   plate,
   welcome,
+  freshroom,
+  welcome2
 }
