@@ -1,4 +1,4 @@
-import images from './images';
-import theme, { COLORS, SIZES, FONTS } from "./theme";
+import images from './images/images';
+import theme, {COLORS, SIZES, FONTS} from './theme/theme';
 
-export { images,theme, COLORS, SIZES, FONTS };
+export {images, theme, COLORS, SIZES, FONTS};

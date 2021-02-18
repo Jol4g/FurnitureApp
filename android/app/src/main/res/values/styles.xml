@@ -10,5 +10,6 @@
         <!-- Customize your theme here.-->
         <item name="android:windowBackground">@drawable/background</item>
         <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowDisablePreview">true</item>
     </style>
 </resources>

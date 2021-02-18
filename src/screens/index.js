@@ -1,3 +1,4 @@
-import { Onbording1,Onbording2,Onbording3 } from './onBoarding';
+import {Onbording1} from './onBoarding';
+import {Login} from './Login';
 
-export { Onbording1, Onbording2, Onbording3  }
+export {Onbording1, Login};

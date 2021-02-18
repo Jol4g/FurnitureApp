@@ -1,14 +1,13 @@
 import React from 'react';
-import { View, Text } from  'react-native';
+import {View, Text, TextInput} from 'react-native';
 
 const Login = () => {
   return (
     <View>
-      <Text>
-        Login
-      </Text>
+      <Text>Login</Text>
+      <TextInput />
     </View>
-  )
-}
+  );
+};
 
 export default Login;
